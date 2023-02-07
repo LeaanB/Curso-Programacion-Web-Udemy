@@ -43,24 +43,28 @@ h3{
     background-color: red;
     width: 100%;
     height: 50px;
-    
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    top: 8px;
 }
 
-.d2{
+.d2 {
     background-color: blue;
     width: 17%;
-    height: 600px;
+    height: 1600px;
     float: left;
+    position: relative;
 }
 
-.d3{
+.d3 {
     background-color: yellowgreen;
     width: 30%;
-    height: 600px;
+    height: 1600px;
     float: right;
 }
 
-.d4{
+.d4 {
     background-color: green;
     width: 100%;
     height: 50px;
@@ -82,12 +86,18 @@ h3{
     border: dashed orangered;
     width: 30%;
     float: left;
+    background-color:white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
     
 }
 .i3{
     border: dashed green;
     width: 70%;
     float: right;
+    background-color: darkorange;
     
 }
 .i4{
