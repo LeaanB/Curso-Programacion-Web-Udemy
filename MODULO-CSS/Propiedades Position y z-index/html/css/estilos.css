@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+#titulo{
+    font-family: 'Rye', cursive;
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+}
