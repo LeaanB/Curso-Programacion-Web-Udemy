@@ -43,16 +43,16 @@ div {
     background-color: rgb(238, 130, 238);
 }
 
-.hsl {
-
+.hsl{
+    background-color: hsl(32, 90%, 53%);
 }
 
 .rgba{
-
+    background-color: rgb(14, 131, 185);
 }
 
 .hsla{
-
+    background-color: rgb(209, 14, 134);
 }
 
 /* cierre estilos de div */
