@@ -1,0 +1,36 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 25px;
+}
+
+#Unidades{
+    font-size: 60px;
+    background-color: black;
+    color: red;
+    text-shadow: 2px 2px 2px white;
+    border: 2px solid red;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    font-family: 'Special Elite', cursive;
+}
+
+.caja1{
+    background-color: red;
+    height: 100px;
+    width: 50vmin;
+}
+
+.caja2{
+    background-color: orange;
+    width: 100px;
+    height: 50vmax;
+}

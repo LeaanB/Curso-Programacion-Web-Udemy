@@ -1,0 +1,58 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 25px;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#colores{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Special Elite', cursive;
+    background-color: black;
+    border: 2px solid red;
+    padding: 30px;
+    margin: 20px;
+    color: red;
+    text-shadow: 2px 2px 2px white;
+}
+
+/* inicio estilos de div */
+
+.key{
+    background-color: chartreuse;   
+}
+
+.hex {
+    background-color: #ff00ff;
+}
+
+.rgb {
+    background-color: rgb(238, 130, 238);
+}
+
+.hsl {
+
+}
+
+.rgba{
+
+}
+
+.hsla{
+
+}
+
+/* cierre estilos de div */

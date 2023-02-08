@@ -22,6 +22,7 @@
 }
 
 
+
 .absolutas {
     height: 0px;
     width: 1000pt;
@@ -30,5 +31,17 @@
     margin-left: 30px;
 }
 
+.padre{
+    padding: 30px;
+    margin: 20px;
+    background-color: blue;
+    color: aliceblue;
+    /* font-size: 30px; */
+    font-weight: bold;
+}
+
+.padre p{
+    font-size: 3em;
+}
 
 
