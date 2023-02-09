@@ -1,0 +1,21 @@
+/* Estilos de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#border{
+    color: red;
+    border: 2px solid black;
+    text-shadow: 2px 2px 2px white;
+    padding: 30px;
+    width: 800px; 
+    margin-left: 350px;
+    font-family: 'Special Elite', cursive;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    margin-top: 50px;
+}

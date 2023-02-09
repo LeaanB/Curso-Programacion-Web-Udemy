@@ -26,18 +26,39 @@ section{
 
 .uno{
     background-image: url(../imagenes/colibri.png), url(../imagenes/pajaro.jpg);
-    height: 1000px;
-    background-repeat: no-repeat;
+    height: 940px;
+    background-repeat: repeat-y;
     margin-left: 200px;
     margin-top: 50px;
+    background-attachment: scroll;
+    overflow: auto;
+    padding: 30px;
+    color:whitesmoke;
+    font-size: 20px;
+    font-weight: bold; 
 }
 
 .dos{
-    
+    background: url(../imagenes/aristogatos.jpg);
+    background-repeat: repeat;
+    backface-visibility:unset;
 }
 
 .tres{
+    background: url(../imagenes/aristogatos.jpg);
+    background-repeat: repeat;
+    background-size: 100px 50px;
+}
 
+.cuatro{
+    background-image: url(../imagenes/arbolvioleta.jpg);
+    background-repeat: no-repeat;
+    /* margin-left: 50px; */
+    /* margin-top: 50px; */
+    -webkit-filter: grayscale(.7);
+    background-size: cover;
+    -webkit-filter: blur(15px);
+    filter: blur(10px);
 }
 
 
