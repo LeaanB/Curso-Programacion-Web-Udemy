@@ -19,3 +19,21 @@
     background-color: black;
     margin-top: 50px;
 }
+
+.Ej-borde{
+    height: 300px;
+    width: 300px;
+    background-color: yellowgreen;
+    margin: 100px auto;
+    border-top-left-radius:250px 50px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 100px 30%;
+    border-bottom-left-radius: 5em 3rem;
+}
+
+#lacoste{
+    margin-left: 250px;
+    width: 70%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
