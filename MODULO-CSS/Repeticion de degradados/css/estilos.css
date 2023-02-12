@@ -6,12 +6,51 @@
     padding: 0px;
 }
 
+/* Inocio repeticiones */
+
 .repeticiones{
     width: 400px;
     height: 400px;
     margin: 100px auto;
-    background-color: bisque;
+    background: repeating-linear-gradient(to left, red, black 50%, blue 100px);
 }
+
+.repeticiones-1{
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background: repeating-linear-gradient(to top, red, black 50%, blue 100px);
+}
+
+.repeticiones-2{
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background: repeating-linear-gradient(to right, red, black 50%, blue 100px);
+}
+
+.repeticiones-3{
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background: repeating-linear-gradient(to bottom, red, black 50%, blue 100px);
+}
+
+.repeticiones-4{
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background: repeating-linear-gradient(to top left, red, black 50%, blue 100px);
+}
+
+.repeticiones-5{
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background: repeating-linear-gradient(to top right, red, black 50%, blue 100px);
+}
+
+/* fin repeticiones */
 
 #repe-deg{
     text-align: center;
@@ -19,9 +58,9 @@
     margin: 20px;
     border: 2px solid black;
     width: 500px;
-    margin-left: 500px;
+    margin-left: 450px;
     margin-top: 50px;
-    background: linear-gradient(to top left, yellow, red, blue, green);
+    background:linear-gradient(to top left, yellow, red, blue, green);
     font-weight: bolder;
     font-size: 40px;
     color: aliceblue;
