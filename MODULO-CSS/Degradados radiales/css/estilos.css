@@ -1,0 +1,59 @@
+/* Fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.degratit{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    background: linear-gradient(to top left, yellow, red, blue, green);
+    color: whitesmoke;
+    text-shadow: 2px 3px 5px black;
+    font-weight: bolder;
+    font-size: 40px;
+    width: 400px;
+    margin-left: 500px;
+}
+
+#fondo{
+    background: linear-gradient(to right , #ff9800, #00bcd4, green);
+}
+
+#deg-radiales_1{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background: radial-gradient(ellipse, yellow, black);
+    font-size: xx-large;
+    padding: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px black;
+}
+#deg-radiales_2{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: antiquewhite;
+    font-size: xx-large;
+    padding: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px black;
+}
+#deg-radiales_3{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: antiquewhite;
+    font-size: xx-large;
+    padding: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px black;
+}
