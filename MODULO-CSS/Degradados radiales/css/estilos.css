@@ -1,5 +1,6 @@
 /* Fuentes de google */
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
 
 *{
     margin: 0px;
@@ -25,35 +26,110 @@
 }
 
 #deg-radiales_1{
+    font-family: 'Julee', cursive;
     text-align: center;
     width: 400px;
     height: 400px;
     margin: 100px auto;
     background: radial-gradient(ellipse, yellow, black);
-    font-size: xx-large;
+    font-size: 40px;
     padding: 20px;
     font-weight: bolder;
     text-shadow: 2px 3px 5px black;
 }
 #deg-radiales_2{
+    font-family: 'Julee', cursive;
     text-align: center;
     width: 400px;
     height: 400px;
     margin: 100px auto;
+    background: radial-gradient(circle at top, rgb(13, 230, 67), black);
     background-color: antiquewhite;
-    font-size: xx-large;
+    font-size: 40px;
     padding: 20px;
     font-weight: bolder;
     text-shadow: 2px 3px 5px black;
 }
 #deg-radiales_3{
+    font-family: 'Julee', cursive;
     text-align: center;
     width: 400px;
+    background: radial-gradient(circle at bottom, rgb(230, 13, 194), white);
     height: 400px;
     margin: 100px auto;
     background-color: antiquewhite;
-    font-size: xx-large;
+    font-size: 40px;
     padding: 20px;
     font-weight: bolder;
     text-shadow: 2px 3px 5px black;
 }
+#deg-radiales_4{
+    font-family: 'Julee', cursive;
+    text-align: center;
+    width: 400px;
+    background: radial-gradient(circle at left, rgb(231, 153, 9), white);
+    height: 400px;
+    margin: 100px auto;
+    background-color: antiquewhite;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px black;
+}
+#deg-radiales_5{
+    font-family: 'Julee', cursive;
+    text-align: center;
+    width: 400px;
+    background: radial-gradient(circle at right, rgb(131, 9, 231), white);
+    height: 400px;
+    margin: 100px auto;
+    background-color: antiquewhite;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px black;
+}
+
+#deg-radiales_6{
+    font-family: 'Julee', cursive;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle farthest-corner at 10% 15% , yellow, 50%, orange, black);
+    margin: 100px auto;
+    background-color: antiquewhite;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px black;
+}
+
+#deg-radiales_7{
+    font-family: 'Julee', cursive;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle farthest-corner at 10% 15% , yellow, 50%, orange, 20%, black);
+    margin: 100px auto;
+    background-color: antiquewhite;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px red;
+}
+#deg-radiales_8{
+    font-family: 'Julee', cursive;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle at 30% 50%, rgba(34, 116,160,0) 50%, black);
+    margin: 100px auto;
+    background-color: antiquewhite;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px red;
+}
+

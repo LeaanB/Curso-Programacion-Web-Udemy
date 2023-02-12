@@ -1,0 +1,35 @@
+/* Fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.repeticiones{
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: bisque;
+}
+
+#repe-deg{
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid black;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 50px;
+    background: linear-gradient(to top left, yellow, red, blue, green);
+    font-weight: bolder;
+    font-size: 40px;
+    color: aliceblue;
+    text-shadow: 2px 3px 5px black;
+    font-family: 'Julee', cursive;
+}
+
+.fondo{
+    background: linear-gradient(to top left, blue, whitesmoke, lightblue, black);
+    height: 100%;
+}

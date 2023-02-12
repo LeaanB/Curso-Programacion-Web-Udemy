@@ -1,5 +1,6 @@
 /* Fuentes de google */
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
 
 *{
     margin: 0px;
@@ -26,94 +27,102 @@
 }
 
 .degradados{
+    font-family: 'Julee', cursive;
     width: 400px;
     height: 300px;
     margin: 100px auto;
     margin-top: 10px;
     background: linear-gradient(to bottom, red, green);
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 3px 3px 2px whitesmoke;
     text-align: center;
     font-weight: bolder;
 }
 .degradados1{
+    font-family: 'Julee', cursive;
     width: 400px;
     height: 300px;
     margin: 100px auto;
     margin-top: 10px;
     background: linear-gradient(to left, red, green);
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 3px 3px 2px whitesmoke;
     text-align: center;
     font-weight: bolder;
 }
 
 .degradados2{
+    font-family: 'Julee', cursive;
     width: 400px;
     height: 300px;
     margin: 100px auto;
     margin-top: 10px;
     background: linear-gradient(to top, red, green);
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 3px 3px 2px whitesmoke;
     text-align: center;
     font-weight: bolder;
 }
 .degradados3{
+    font-family: 'Julee', cursive;
     width: 400px;
     height: 300px;
     margin: 100px auto;
     margin-top: 10px;
     background: linear-gradient(to right, red, green);
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 3px 3px 2px whitesmoke;
     text-align: center;
     font-weight: bolder;
 }
 
 .degradados4{
+    font-family: 'Julee', cursive;
     width: 400px;
     height: 300px;
     margin: 100px auto;
     margin-top: 10px;
     background: linear-gradient(to right, yellow, red, green);
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 3px 3px 2px whitesmoke;
     text-align: center;
     font-weight: bolder;
 }
 
 .degradados5{
+    font-family: 'Julee', cursive;
     width: 400px;
     height: 300px;
     margin: 100px auto;
     margin-top: 10px;
     background: linear-gradient(to right, yellow, red, blue, green);
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 3px 3px 2px whitesmoke;
     text-align: center;
     font-weight: bolder;
 }
 
 .degradados6{
+    font-family: 'Julee', cursive;
     width: 400px;
     height: 300px;
     margin: 100px auto;
     margin-top: 10px;
     background: linear-gradient(to top left, yellow, red, blue, green);
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 3px 3px 2px whitesmoke;
     text-align: center;
     font-weight: bolder;
 }
 
 .degradados7{
+    font-family: 'Julee', cursive;
     width: 400px;
     height: 300px;
     margin: 100px auto;
     margin-top: 10px;
     background: linear-gradient(to bottom left, yellow, red, blue, green);
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 3px 3px 2px whitesmoke;
     text-align: center;
     font-weight: bolder;
