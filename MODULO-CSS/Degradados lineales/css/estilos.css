@@ -1,0 +1,120 @@
+/* Fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fondo{
+    background: linear-gradient(to top left, yellow, green, blue);
+}
+
+.degratit{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border:  2px solid black;
+    width: 400px;
+    margin-left: 500px;
+    background-color: black;
+    color: red;
+    text-shadow: 2px 2px 2px whitesmoke;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.degradados{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    margin-top: 10px;
+    background: linear-gradient(to bottom, red, green);
+    font-size: 30px;
+    text-shadow: 3px 3px 2px whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+}
+.degradados1{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    margin-top: 10px;
+    background: linear-gradient(to left, red, green);
+    font-size: 30px;
+    text-shadow: 3px 3px 2px whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.degradados2{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    margin-top: 10px;
+    background: linear-gradient(to top, red, green);
+    font-size: 30px;
+    text-shadow: 3px 3px 2px whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+}
+.degradados3{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    margin-top: 10px;
+    background: linear-gradient(to right, red, green);
+    font-size: 30px;
+    text-shadow: 3px 3px 2px whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.degradados4{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    margin-top: 10px;
+    background: linear-gradient(to right, yellow, red, green);
+    font-size: 30px;
+    text-shadow: 3px 3px 2px whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.degradados5{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    margin-top: 10px;
+    background: linear-gradient(to right, yellow, red, blue, green);
+    font-size: 30px;
+    text-shadow: 3px 3px 2px whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.degradados6{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    margin-top: 10px;
+    background: linear-gradient(to top left, yellow, red, blue, green);
+    font-size: 30px;
+    text-shadow: 3px 3px 2px whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.degradados7{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    margin-top: 10px;
+    background: linear-gradient(to bottom left, yellow, red, blue, green);
+    font-size: 30px;
+    text-shadow: 3px 3px 2px whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+}

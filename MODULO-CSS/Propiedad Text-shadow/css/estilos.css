@@ -1,0 +1,35 @@
+/* Fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#prop{
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 40px;
+    border: 2px solid black;
+    width: 600px;
+    margin-left: 350px;
+    background-color: black;
+    color: red;
+    text-shadow: 5px 3px 5px white;
+    font-size: 45px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.box-shadow{
+    width: 500px;
+    height: 200px;
+    background-color: #0071BC;
+    margin: 100px auto;
+    box-shadow: 10px 5px 7px black, 10px 10px 10px red, 20px 25px 15px green;
+}
+
+
+
