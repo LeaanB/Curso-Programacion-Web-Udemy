@@ -50,8 +50,18 @@
     background: repeating-linear-gradient(to top right, red, black 50%, blue 100px);
 }
 
-/* fin repeticiones */
+.repeticiones-6{
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background: repeating-linear-gradient(to top left,rgba(255,0,0,0.3), black 50px, rgba(0,0,2550.46) 100px);
+}
 
+
+
+
+
+/* fin repeticiones */
 #repe-deg{
     text-align: center;
     padding: 30px;
