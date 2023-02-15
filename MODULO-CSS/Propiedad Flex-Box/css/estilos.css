@@ -1,0 +1,47 @@
+/* Funtes de google */
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* estilos */
+.propiedad{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Julee', cursive;
+    background: linear-gradient(to top left, blue, green, red, rgba(0, 0, 0, 0.596), yellow,orangered);
+    width: 500px;
+    padding: 30px;
+    margin: 20px;
+    margin-left: 400px;
+    color: rgb(240, 248, 255);
+    text-shadow: 2px 10px 5px black;
+}
+
+.fondo{
+    background-color: rgba(255, 115, 0, 0.699);
+}
+
+#contenedor{
+
+}
+
+
+#contenedor div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: 'Oleo Script', cursive;
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: 2px 10px 5px black;
+    
+}
