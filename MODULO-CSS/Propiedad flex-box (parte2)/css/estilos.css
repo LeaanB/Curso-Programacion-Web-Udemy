@@ -1,0 +1,100 @@
+/* Fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#flex-ti{
+    background: linear-gradient(to top left, blue, orangered, red,lightblue, black, yellow);
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 5px 5px 3px whitesmoke;
+    margin-left: 500px;
+    margin-top: 50px;
+    font-family: 'Julee', cursive;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 10px 5px black;
+    color: whitesmoke;
+}
+
+.fondo{
+    /* background: linear-gradient(to top left, red,  whitesmoke, blue, blueviolet, orange, black, green ); */
+    background: linear-gradient(to top left, lightskyblue, whitesmoke, yellow, lightblue, lightskyblue, whitesmoke, yellow, whitesmoke);
+    
+    height: 150%;
+}
+
+#contenedor{
+    height: 700px;
+    display: flex;
+    /* flex-flow: wrap; */
+    flex-flow: row;
+}
+
+#contenedor div{
+    height: 100px;
+    width: 100px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    box-sizing: border-box;
+}
+
+#numero{
+    font-size: 30px;
+}
+
+.uno{
+    flex-grow: 1;
+    order: 1;
+    background: linear-gradient(to top right, blue, red, green,yellow);
+    color: white;
+    text-shadow: 12px 10px 5px black;
+    box-shadow: 5px 5px 3px whitesmoke;
+}
+
+.dos{
+    flex-grow: 2;
+    /*order: -3;*/ /* (Mantiene el orden de prioridad) */
+    order: 2;
+    background: linear-gradient(to top right, blue, red, green,yellow);
+    color: white;
+    text-shadow: 12px 10px 5px black;
+    box-shadow: 5px 5px 3px whitesmoke;
+}
+
+.tres{
+    order: 3;
+    flex-grow: 3;
+    color: white;
+    background: linear-gradient(to top right, blue, red, green,yellow);
+    text-shadow: 12px 10px 5px black;
+    box-shadow: 5px 5px 3px whitesmoke;
+}
+
+.cuatro{
+    order: 4;
+    flex-grow: 4;
+    color: white;
+    background: linear-gradient(to top right, blue, red, green,yellow);
+    text-shadow: 12px 10px 5px black;
+    box-shadow: 5px 5px 3px whitesmoke;
+}
+
+.cinco{
+    order: 5;
+    flex-grow: 5;
+    color: white;
+    background: linear-gradient(to top right, blue, red, green,yellow);
+    text-shadow: 12px 10px 5px black;
+    box-shadow: 5px 5px 3px whitesmoke;
+}

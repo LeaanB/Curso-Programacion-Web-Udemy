@@ -26,7 +26,16 @@
 }
 
 #contenedor{
-
+    display: flex;
+    margin-left: -100px;
+    margin-top: 60px;
+    flex-direction: row;
+    flex-wrap: wrap; /*Apila los elementos hacia abajo cuando se achica el navegador hacia la izquierda*/
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* flex-direction: row-reverse; */
+    /* margin-right: 350px; */
+    /* margin-top: 300px; */
 }
 
 
