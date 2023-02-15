@@ -1,0 +1,27 @@
+/* Fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#font{
+    background: linear-gradient(to top left, green, blue, red, orange,yellow);
+    margin: 20px;
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Julee', cursive;
+    margin-left: 500px;
+    margin-top: 40px; 
+    width: 300px;
+    text-align: center;
+    color:whitesmoke;
+}
+
+#fondo{
+    background: linear-gradient(to top right, orange, red, blue, green);
+    height: 100%;
+}
+

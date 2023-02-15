@@ -98,3 +98,44 @@
     text-shadow: 12px 10px 5px black;
     box-shadow: 5px 5px 3px whitesmoke;
 }
+
+.seis{
+    order: 5;
+    flex-grow: 5;
+    color: white;
+    background: linear-gradient(to top right, blue, red, green,yellow);
+    text-shadow: 12px 10px 5px black;
+    box-shadow: 5px 5px 3px whitesmoke;
+}
+.siete{
+    order: 5;
+    flex-grow: 5;
+    color: white;
+    background: linear-gradient(to top right, blue, red, green,yellow);
+    text-shadow: 12px 10px 5px black;
+    box-shadow: 5px 5px 3px whitesmoke;
+}
+.ocho{
+    order: 5;
+    flex-grow: 5;
+    color: white;
+    background: linear-gradient(to top right, blue, red, green,yellow);
+    text-shadow: 12px 10px 5px black;
+    box-shadow: 5px 5px 3px whitesmoke;
+}
+.nueve{
+    order: 5;
+    flex-grow: 5;
+    color: white;
+    background: linear-gradient(to top right, blue, red, green,yellow);
+    text-shadow: 12px 10px 5px black;
+    box-shadow: 5px 5px 3px whitesmoke;
+}
+.diez{
+    order: 5;
+    flex-grow: 5;
+    color: white;
+    background: linear-gradient(to top right, blue, red, green,yellow);
+    text-shadow: 12px 10px 5px black;
+    box-shadow: 5px 5px 3px whitesmoke;
+}
