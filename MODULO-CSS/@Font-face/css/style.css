@@ -1,21 +1,31 @@
 /* Fuentes de google */
 @import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
 
+/* Fuentes descargadas de fontsquirrel */
+@font-face{
+    font-family: "KaushanScript-Regular";
+    src: url(../Fuentes/KaushanScript-Regular.otf);
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+
 
 *{
     margin: 0px;
     padding: 0px;
 }
 
-#font{
+#font-ti{
     background: linear-gradient(to top left, green, blue, red, orange,yellow);
     margin: 20px;
     padding: 30px;
     font-size: 30px;
     font-family: 'Julee', cursive;
-    margin-left: 500px;
+    text-shadow: 5px 3px 2px black;
+    margin-left: 490px;
     margin-top: 40px; 
-    width: 300px;
+    width: 400px;
     text-align: center;
     color:whitesmoke;
 }
@@ -41,3 +51,7 @@ section{
     border: 10px solid rgba(209, 16, 16, 0.62)
 }
 
+.prueba{
+    font-family: KaushanScript-Regular;
+    font-size: 40px;
+}

@@ -1,0 +1,26 @@
+/* Fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Fuentes-tit{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    margin-left: 350px;
+    background: linear-gradient(to top left, green, red, blue, whitesmoke, yellow);
+    padding: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: 2px 3px 5px whitesmoke;
+    width: 650px;
+
+}
+
+#fondo{
+    background: linear-gradient(to top right, green, yellow, lightblue, blueviolet, lightblue, green, whitesmoke, green);
+    height: 150%;
+}

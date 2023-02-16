@@ -1,0 +1,46 @@
+/* Fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#prop-tit{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+    background: linear-gradient(to top left, green, red, blue, blueviolet, yellow,orange, orangered);
+    width: 550px;
+    margin-left: 450px;
+    padding: 20px;
+    text-shadow: 2px 3px 5px whitesmoke;
+    margin-top: 20px;
+}
+
+.fondo{
+    background: linear-gradient(to top right, orange, red, whitesmoke, green, blueviolet, yellow, red);
+    height: 200%;
+}
+
+#ej-transition{
+    height: 200px;
+    width: 200px;
+    /* background: linear-gradient(to top left, blue, red, black,yellow); */
+    background-color: blue;
+    margin: 0px auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    color: aliceblue;
+    font-weight: bolder;
+    text-shadow: 2px 5px 3px whitesmoke;
+    transition-property: background-color, height;
+    transition-duration: 2s, .7s;
+    color: black;
+}
+
+#ej-transition:hover{
+    height: 600px;
+    background-color: rgba(172, 255, 47, 0.555);
+}
