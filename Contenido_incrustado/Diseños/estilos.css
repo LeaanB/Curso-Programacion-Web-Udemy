@@ -1,8 +1,40 @@
+/* Fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#fondo{
+    background: linear-gradient(to top left, green, yellow, red, blue, orange);
+    min-height: 100%;
+}
+
 html{
     background-color: aquamarine;
 }
 
 #ins{
     background-color: yellowgreen;
+    
 }
+
+.ti-contenido{
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    border: 3px dashed black;
+    width: 600px;
+    margin-left: 450px;
+    margin-top: 40px;
+    font-family: 'Pacifico', cursive;
+    background-color: aliceblue;
+    box-shadow: 2px 5px 3px rgb(14, 92, 207);
+}
+
+
+
+
+
 
