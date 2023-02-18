@@ -22,7 +22,7 @@
 }
 
 #fondo{
-    background: linear-gradient(to right , #ff9800, #00bcd4, green);
+    background: linear-gradient(to top left, #ff9800, #00bcd4, green, yellow, red);
 }
 
 #deg-radiales_1{
