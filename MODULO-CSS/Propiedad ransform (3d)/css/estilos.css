@@ -1,4 +1,6 @@
 /* fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
 
 *{
     margin: 0px;
@@ -6,18 +8,45 @@
 }
 
 #prop-3d{
-    background: linear-gradient(to top left, yellow, whitesmoke, red, white,rgb(255, 166, 0));
+    background: linear-gradient(to top left, lightskyblue, whitesmoke, lightskyblue, white,lightskyblue);
     text-align: center;
     margin: 20px;
     padding: 20px;
     margin-left: 500px;
-    text-shadow: 2px 5px 3px whitesmoke;
-    font-size: 40px;
+    text-shadow: 2px 5px 3px gray;
+    font-size: 50px;
     font-weight: bolder;
+    font-family: 'Metal Mania', cursive;
     width: 500px;
     margin-top: 30px;
 }
 
 .fondo{
     background-image: url(../imagenes/GettyImages-513893998.jpg);
+    perspective: 800px;
+}
+
+.contenedor{
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    margin: 20% auto;
+    position: relative;
+    transition: all 3seg ease;
+}
+
+.contenedor > div img{
+    width: 100%;
+}
+
+.front, .back{
+    position: absolute;
+}
+
+.front{
+
+}
+
+.contenedor:hover{
+    transform: translate3d(50px,50px,50px);
 }
