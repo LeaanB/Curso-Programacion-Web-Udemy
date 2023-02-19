@@ -1,0 +1,23 @@
+/* fuentes de google */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#prop-3d{
+    background: linear-gradient(to top left, yellow, whitesmoke, red, white,rgb(255, 166, 0));
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 500px;
+    text-shadow: 2px 5px 3px whitesmoke;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.fondo{
+    background-image: url(../imagenes/GettyImages-513893998.jpg);
+}

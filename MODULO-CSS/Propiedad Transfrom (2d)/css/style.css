@@ -1,0 +1,24 @@
+/* Enclaces de google */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#ti-principal{
+    text-align: center;
+    background: linear-gradient(to top left, red, lightskyblue, whitesmoke, lightskyblue, yellow );
+    margin: 20px;
+    padding: 30px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 40px;
+    font-family: 'Chelsea Market', cursive;
+    font-weight: bolder;
+}
+
+.fondo{
+    background: linear-gradient(to top left, red, black, green, orange, blue,whitesmoke);
+    height: 100%;
+}
