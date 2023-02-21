@@ -111,10 +111,20 @@
         border-radius: 0;
         top: 0px;
         left: 0px;
+        text-align: center;
+        padding-top: 40px;
+        font-weight: bolder;
+        font-size: 50px;
+        text-shadow: 2px 5px 3px red;
     }
 
     25% {
         background-color: aqua;
+        text-align: center;
+        padding-top: 40px;
+        font-weight: bolder;
+        font-size: 50px;
+        text-shadow: 2px 5px 3px red;
     }
 
     33% {
@@ -123,7 +133,12 @@
 
     50% {
         top: 50%;
-        left: 50%;
+        left: 40%;
+        text-align: center;
+        padding-top: 60px;
+        font-weight: bolder;
+        font-size: 150px;
+        text-shadow: 2px 5px 3px whitesmoke;
     }
 
     75% {
@@ -135,5 +150,11 @@
         border-radius: 50%;
         top: 50%;
         left: 0%;
+        text-align: center;
+        padding-top: 60px;
+        font-weight: bolder;
+        color: whitesmoke;
+        font-size: 80px;
+        text-shadow: 2px 5px 3px black;
     }
 }
