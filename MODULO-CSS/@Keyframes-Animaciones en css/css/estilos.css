@@ -6,7 +6,7 @@
     padding: 0px;
 }
 
-#key{
+#key-titulo{
     text-align: center;
     font-family: 'Nosifer', cursive;
     font-size: 40px;
@@ -16,7 +16,7 @@
     padding: 10px;
     /* margin-top: 60px; */
     margin: 40px;
-    width: 500px;
+    width: 880px;
     margin-left: 500px;
 }
 
@@ -26,11 +26,13 @@
     width: 100%;
 }
 
+/* Circulo 1 */
+
 .circulo{
     background-color: red;
     height: 200px;
     width: 200px;
-    margin-left: 650px;
+    margin-left: 1200px;
     border-radius: 50%;
     position: absolute;
     animation-name: degrade;
@@ -55,4 +57,83 @@
 }
 
 
+/* circulo 2 */
 
+.circulo-2{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    margin-left: 900px;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: degrade-2;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes degrade-2 {
+    from{
+        background-color: blueviolet;
+        box-shadow: 2px 5px 3px whitesmoke;
+        border-radius: 0;
+    }
+
+    to{
+        background-color: orangered;
+        border-radius: 50%;
+    }
+}
+
+/* curculo 3 */
+
+.circulo-3{
+    background-color: palevioletred;
+    height: 200px;
+    width: 200px;
+    margin-left: 600px;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: degrade-3;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes degrade-3 {
+    0% {
+        background-color: whitesmoke;
+        box-shadow: 2px 5px 3px greenyellow;
+        border-radius: 0;
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        background-color: aqua;
+    }
+
+    33% {
+        background-color: blue;
+    }
+
+    50% {
+        top: 50%;
+        left: 50%;
+    }
+
+    75% {
+        background-color: chartreuse;
+    }
+
+    100% {
+        background-color: orangered;
+        border-radius: 50%;
+        top: 50%;
+        left: 0%;
+    }
+}
