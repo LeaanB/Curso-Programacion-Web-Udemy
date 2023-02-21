@@ -1,0 +1,26 @@
+/* Fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Media-ti{
+    background: linear-gradient(to right, red, whitesmoke, orange, greenyellow);
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    width: 1000px;
+    margin-left: 250px;
+    font-family: 'Nosifer', cursive;
+    color: orangered;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 5px 3px black;
+}
+
+#fondo{
+    background: linear-gradient(to top left , lightblue, blue, greenyellow);
+    height: 100%;
+}
