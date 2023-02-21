@@ -1,0 +1,27 @@
+/* fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ti-calculadora{
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 30px;
+    background: linear-gradient(to top left, orange, green, whitesmoke, green, orange);
+    font-size: 30px;
+    width: 600px;
+    margin-left: 450px;
+    color: red;
+    text-shadow: 2px 5px 3px black;
+    font-family: 'Nosifer', cursive;
+}
+
+#fondo{
+    /* background-image: url(../imagenes/images.jpg); */
+    background: linear-gradient(to top right,red, white, orange, blue);
+    height: 100%;
+}
