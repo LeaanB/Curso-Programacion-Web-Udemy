@@ -19,7 +19,7 @@
 
 .fondo{
     background: linear-gradient(to top left, black, white, gray);
-    height: 100%;
+    height: 150%;   
 }
 
 #fondo-img{
