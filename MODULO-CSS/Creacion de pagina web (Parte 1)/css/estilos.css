@@ -1,0 +1,29 @@
+/* enlaces de Fuentes de google */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#ti-web{
+    text-align: center;
+    border: 2px solid black;
+    font-size: 40px;
+    font-weight: bolder;    
+    width: 600px;
+    padding: 20px;
+    margin: 30px;
+    background: linear-gradient(to left, whitesmoke, gray, greenyellow, red);
+    margin-left: 500px;
+}
+
+.fondo{
+    background: linear-gradient(to top left, black, white, gray);
+    height: 100%;
+}
+
+#fondo-img{
+    width: 50%;
+    height: 50%;
+    margin-left: 400px;
+}
