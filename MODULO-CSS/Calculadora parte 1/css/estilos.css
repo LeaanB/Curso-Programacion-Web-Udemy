@@ -24,12 +24,18 @@ body{
 #fondo{
     /* background-image: url(../imagenes/images.jpg); */
     background: linear-gradient(to top right,red, white, orange, blue);
-    height: 200%;
+    height: 100%;
 }
 
 * ::after, ::before{
     box-sizing: border-box !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+}
+
+#calculadora .tecla span,
+#pantalla{
+    user-select: none;
+    
 }
 
 #calculadora{
@@ -71,5 +77,26 @@ body{
     height: 60px;
     font-size: 22px;
     font-weight: bold;
-    padding: 2px 4px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+#calculadora .tecla span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    /* background:linear-gradient(to top left green, yellow) */
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+#calculadora .tecla span:hover{
+    background-color: gray;
+}
+
+#calculadora .tecla span :active{
+    background-color:white;
 }
