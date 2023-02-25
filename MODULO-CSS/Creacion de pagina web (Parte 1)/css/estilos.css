@@ -77,6 +77,40 @@ nav ul li a{
     font-size: 30px;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 20px;
+    /* padding: 20px; */
+}
+
+header{
+    height: 600px;
+    background-image: url(../Imagenes/bg-header.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.iluminacion{
+    position: relative;
+    width: 600px;
+    
+}
+
+.iluminacion span {
+    position: absolute;
+    font-size: 150px;
+    color: transparent;
+    -webkit-text-stroke: 3px whitesmoke;
+}
+
+.iluminacion .front{
+    -webkit-text-stroke: 3px whitesmoke;
+}
+
+.iluminacion .back{
+   filter: blur(6px);
+}
+
+.info-header{
+    width: 700px;
 }
 
