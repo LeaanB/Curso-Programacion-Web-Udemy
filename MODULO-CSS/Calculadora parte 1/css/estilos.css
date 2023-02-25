@@ -94,7 +94,7 @@ body{
 }
 
 #calculadora .tecla span:hover{
-    background-color: gray;
+    background-color: whitesmoke;
 }
 
 #calculadora .tecla span :active{
