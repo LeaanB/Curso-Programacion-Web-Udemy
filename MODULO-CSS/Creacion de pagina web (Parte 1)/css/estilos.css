@@ -80,6 +80,11 @@ nav ul li a{
     /* padding: 20px; */
 }
 
+nav ul li a:hover{
+    background:linear-gradient(to top left, gray, lightskyblue, red);
+    color: back;
+}
+
 header{
     height: 600px;
     background-image: url(../Imagenes/bg-header.jpg);
@@ -104,13 +109,41 @@ header{
 
 .iluminacion .front{
     -webkit-text-stroke: 3px whitesmoke;
+    margin-left: 60px;     
 }
 
 .iluminacion .back{
    filter: blur(6px);
+    margin-left: 60px;
 }
 
 .info-header{
     width: 700px;
+}
+.info-header p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 170px;
+    /* text-align: center; */
+    margin-left: -130px;
+}
+
+.btn{
+    margin-top: 50px;
+    background-color: white;
+    border: 0;
+    padding: 10px 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: rgba(2, 110, 233, 0.918);
+    font-weight: bolder;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
