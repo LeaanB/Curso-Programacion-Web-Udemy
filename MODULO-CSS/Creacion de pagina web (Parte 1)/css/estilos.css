@@ -10,18 +10,18 @@
     border: 2px solid black;
     font-size: 40px;
     font-weight: bolder;    
-    width: 600px;
+    width: 650px;
     padding: 20px;
     margin: 30px;
-    background: linear-gradient(to left, greenyellow, gray, greenyellow, gray);
-    margin-left: 500px;
+    background: linear-gradient(to top left, red, white, red, white);
+    margin-left: 470px;
     color: aliceblue;
     text-shadow: 2px 5px 3px black;
 }
 
 .fondo{
-    background: linear-gradient(to top left, black, white, gray);
-    height: 150%;   
+    background: linear-gradient(to top left, yellow, red, black, yellow,red, black, red);
+    height: 200%;   
 }
 
 #fondo-img{
@@ -56,6 +56,7 @@
 /* color sin usar */
 .c1{
     color: lightskyblue;
+    font-size: 20px;
 }
 
 .container{
@@ -84,6 +85,73 @@ nav ul li a:hover{
     background:linear-gradient(to top left, gray, lightskyblue, red);
     color: back;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    position: relative;
+    width: 100%;
+    min-height: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-1{
+    flex: 0 0 8.33333%;
+    max-width: 0 0 8.33333%;
+}
+.col-2{
+    flex: 0 0 16.666667%;
+    max-width: 0 0 16.666667%;
+}
+.col-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-4{
+    flex: 0 0 333333%;
+    max-width: 33.333333%;
+}
+.col-5{
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-7{
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+.col-8{
+    flex: 0 0 66.666667%;
+    max-width: 0 0 66.666667%;
+}
+.col-9{
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.col-10{
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+.col-11{
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+
+.col-12{
+   flex:  0 0 100%;
+   max-width: 100%;  
+}
+
+
 
 header{
     height: 600px;
@@ -146,4 +214,48 @@ ul{
     padding: 0px;
     list-style: none;
 }
+
+
+/* seccion who */
+
+#who{
+    background-color: black;
+    padding: 90px 0px;
+}
+
+#who p{
+    color: whitesmoke;
+}
+
+.text-center{
+    text-align: center;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+#who p{
+    line-height: 30px;
+}
+
+/* Seccion de we */
+#we{
+    padding: 90px;
+    color: white;
+    background-color: #141414;    
+}
+
+#fondo-priorities{
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+/* priorities */
+#priorities{
+    padding: 90px 0px;
+    background: url(../Imagenes/bg-priorities.jpg);
+    background-size: cover;
+}
+
 
