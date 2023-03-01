@@ -1,0 +1,28 @@
+/* Enlaces de fuentes  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#principal{
+    text-align: center;
+    height: 100%;
+    font-size: 40px;
+    margin: 20px;
+    margin-top: 30px;
+    border:15px solid white;
+    box-shadow: 2px 5px 3px gray;
+    color: antiquewhite;
+    text-shadow: 2px 5px 3px black;
+    width: 450px;
+    padding: 20px;
+    margin-left: 550px;
+    background: linear-gradient(to top left, black, whitesmoke);
+
+}
+
+#fondo{
+    background: linear-gradient(to right, yellow, green);
+}
+    

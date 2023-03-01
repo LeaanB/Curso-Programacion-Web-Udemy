@@ -1,0 +1,27 @@
+/* enlaces para fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#fondo{
+    background: linear-gradient(to top right, green, red);
+    height: 100%;
+}
+
+#datos{
+    text-align: center;
+    padding: 20px;
+    border: 15px solid black;
+    margin: 30px;
+    width: 700px;
+    margin-left: 380px;
+    background: linear-gradient(to top left, red, orange);
+    color: antiquewhite;
+    text-shadow: 2px 5px 3px black;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Nosifer', cursive;
+}
