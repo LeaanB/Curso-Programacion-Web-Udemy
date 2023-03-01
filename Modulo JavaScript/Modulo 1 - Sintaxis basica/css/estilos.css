@@ -1,0 +1,40 @@
+/* estilos */
+
+
+/* fondo de pagina */
+
+.fondo{
+    background: linear-gradient(to top right, yellow, black);
+    height: 100%;
+}
+
+/* fin fondo de pagina */
+
+/* parrafo */
+p{
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+/* fin parrafo */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    width: 700px;
+    box-shadow: 2px 5px 3px black;
+    margin-left: 400px;
+    background: linear-gradient(to top left, yellow, red);
+    color: antiquewhite;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 5px 3px black;
+}
