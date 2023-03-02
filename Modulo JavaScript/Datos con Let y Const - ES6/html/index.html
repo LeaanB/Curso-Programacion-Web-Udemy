@@ -1,24 +1,68 @@
 <!DOCTYPE html>
 <html id="fondo" lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Datos con Let y Const - ES6</title>
 
     <!-- archivo css -->
     <link rel="stylesheet" href="../css/estilos.css">
-    
+
     <!-- archivo Js -->
-    <script src="../JavaScript/datos.js"></script>
+    <!-- <script src="../JavaScript/datos.js"></script> -->
 
 </head>
 
 <body>
 
-    <h1 id="datos">Datos con Let y Const - ES6</h1>
+    <h1 id="datos">Datos con Let y Co   nst - ES6</h1>
+
     
-    
+    <section>
+
+        <script>
+
+            function write(arg) {
+                Document.write(arg+'<br></br>');
+            }
+
+            var caja1 = 5;
+            write( caja1 );
+
+            caja1 = "Hola";
+            write(caja1);
+
+            const caja2 = 25;
+            write(caja2);
+
+            caja2 = "cualquier cosa";
+            write (caja2);
+
+            // const caja2 = 35;
+            // write(caja2);
+
+
+            var a = 1;
+            var b = 5;
+            
+            {
+                var c = 15;
+            }
+
+            console.log(a,b,c)
+
+
+
+        </script>
+
+    </section>
+
+
+
+
 </body>
+
 </html>
