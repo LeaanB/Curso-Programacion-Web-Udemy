@@ -1,0 +1,21 @@
+/* fuentes de google */
+
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+.Operadores{
+    text-align: center;
+    padding: 20px;
+    border: 10px solid wheat;
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 550px;
+    background: linear-gradient(to top right, gray, green, yellow);
+}
+
+.fondo{
+    background: linear-gradient(to top left, rgb(219, 8, 219), red);
+    height: 100%;
+}
