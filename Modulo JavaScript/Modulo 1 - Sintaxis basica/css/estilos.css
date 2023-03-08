@@ -1,8 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 /* estilos */
 
 
 /* fondo de pagina */
-
 .fondo{
     background: linear-gradient(to top right, yellow, black);
     height: 100%;
@@ -19,10 +23,7 @@ p{
 }
 /* fin parrafo */
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 
 h1{
     border: 2px solid black;

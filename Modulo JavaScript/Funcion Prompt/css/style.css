@@ -1,0 +1,40 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@700&display=swap');
+/* estilos */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#funcion{
+    text-align: center;
+    font-family: 'Astloch', cursive;
+    font-weight:bolder;
+    text-shadow: 2px 5px 3px black;
+    margin: 20px;
+    margin-top: 20px;
+    font-size: 60px;
+    border: 15px solid black;
+    width: 30%;
+    /* background: linear-gradient(to top left, green, yellow, violet, blue); */
+    background-image: url(../imagenes/69151303-lobo-aullando-a-la-luna-en-el-bosque-ilustración-de-vector-dibujado-a-mano.jpeg);
+    /* height: 50px */
+    padding: 15px;
+    margin-left: 500px;
+    color: red
+}
+
+#back{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../imagenes/69151303-lobo-aullando-a-la-luna-en-el-bosque-ilustración-de-vector-dibujado-a-mano.jpeg);
+}
+
+#resultados{
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    background-color: greenyellow;
+    border: 15px solid black;   
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+.operadores{
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Creepster', cursive;
+    border: 15px solid black;
+    width: 500px;
+    margin-left: 450px;
+    color: white;
+    text-shadow: 2px 5px 3px black;
+    background: linear-gradient(to top right, greenyellow, red, violet,blue);
+    box-shadow: 5px 3px 7px white;
+}
+
+.fondo{
+    background: linear-gradient(to top left, greenyellow, red, violet,blue);
+    height: 100%;
+    /* padding-top: 30px; */
+}
