@@ -1,0 +1,20 @@
+/* margenes */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#arrays{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    border: 15px solid black;
+    width: 500px;
+    margin-left: 550px;
+    background: linear-gradient(to top left, red, green, blue);
+    color: #fff;
+    text-shadow: 2px 5px 3px whitesmoke;    
+}
+
