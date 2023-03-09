@@ -1,0 +1,1 @@
+var arrayMultidimensional = ["Avion" , 25 , true, ["perro", "Gato", "liebre", "tigre"]];

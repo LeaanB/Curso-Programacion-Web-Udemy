@@ -1,0 +1,31 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+/* Margenes */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#Bidimension{
+    text-align: center;
+    border: 15px solid black;
+    width: 550px;
+
+    font-size: 40px;
+    padding: 20px;
+    margin: 30px;
+    margin-left: 450px;
+    background: linear-gradient(to top left, greenyellow, red, lightblue);
+    color: whitesmoke;
+    text-shadow: 2px 5px 3px black;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.back{
+   background-color: brown;
+    /* background-repeat:no-repeat; */
+    
+}
+
